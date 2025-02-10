@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python solution.py maze_30x30.txt
 ```
 
-Replace `maze_30x30.txt` with `maze_35x35.txt` or `maze_40x40.txt` and adjust the algorthim and heuristic as needed in line 124 and line 130 for the expected image name output
+Replace `maze_30x30.txt` with `maze_35x35.txt` or `maze_40x40.txt` and adjust the algorthim and heuristic as needed in line 124.
 
 Expected Output
 - The script will solve the maze using the algorithm and heuristic provided in line 124.
