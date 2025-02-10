@@ -127,5 +127,5 @@ print("Path cost:", len(s.solution[0]) )
 print("Execution time:", round(time.time() - start_time, 4))
 print("Solution:")
 s.print()
-s.output_image("maze_30x30_MT.png", show_explored=True)
+s.output_image("solution.png", show_explored=True)
 
