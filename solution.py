@@ -112,20 +112,20 @@ class MazeSolver(Maze):
         else:
             print("The maze has not been solved yet.")
 
-if len(sys.argv) != 2:
-    sys.exit("Usage: python maze.py maze.txt")
+# if len(sys.argv) != 2:
+#     sys.exit("Usage: python maze.py maze.txt")
 
-s = MazeSolver(sys.argv[1])
+# s = MazeSolver(sys.argv[1])
 
-print("Maze:")
-s.print()
-print("Solving...")
-start_time = time.time()
-s.solve_a_star(heuristic=manhattan_distance)
-print("Nodes explored:", s.num_explored)
-print("Path cost:", len(s.solution[0]) )
-print("Execution time:", round(time.time() - start_time, 4))
-print("Solution:")
-s.print()
-s.output_image("solution.png", show_explored=True)
+# print("Maze:")
+# s.print()
+# print("Solving...")
+# start_time = time.time()
+# s.solve_a_star(heuristic=manhattan_distance)
+# print("Nodes explored:", s.num_explored)
+# print("Path cost:", len(s.solution[0]) )
+# print("Execution time:", round(time.time() - start_time, 4))
+# print("Solution:")
+# s.print()
+# s.output_image("solution.png", show_explored=True)
 
