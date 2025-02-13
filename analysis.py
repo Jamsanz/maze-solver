@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from solution import MazeSolver, manhattan_distance, octile_distance
+from maze_solver import MazeSolver, manhattan_distance, octile_distance
 
 # Load maze files
 maze_files = {
